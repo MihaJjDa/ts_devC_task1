@@ -2,9 +2,17 @@
 Task 1. LongLongLong numbers Class
 
 Usage:
-$ make
-$ make run
+ $ make
+ $ make run
+ Input an expression
 
-There are no console input yet. Maked methods, constructors and destructors can be seen in .h
+###expression
+Expression may include operators ++, --, construor(longLongLong)
+Every step must be in brackets
+Example:
+++(--(longLongLong(123456789012345678901234567890)))
+
+###readme
+Maked methods, constructors and destructors can be seen in .h
 Their realization in .cpp
-Testing in main
+Other testing can be carried in main
